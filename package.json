@@ -1,0 +1,19 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Projet tuto HTML/CSS/SCSS",
+  "main": "index.js",
+  "browserlist": ["last 5 versions"],
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Deborah",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "concat": "^1.0.3",
+    "node-sass": "^5.0.0",
+    "postcss-cli": "^8.3.1"
+  }
+}
